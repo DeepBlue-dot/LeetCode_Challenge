@@ -16,7 +16,7 @@ public:
                 return {indexTonum[diff], i};
             indexTonum[nums[i]]=i;
         }
-        
+        return {};
     }
 };
 
